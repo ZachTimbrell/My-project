@@ -515,6 +515,23 @@ Transform:
   - {fileID: 1776879075}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1082825286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5654008814894759899, guid: f4d768c00fe96894f88ed051c95af3bf, type: 3}
+  m_PrefabInstance: {fileID: 5433189006561544402}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1082825287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082825286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fee3cbee7dc27f47a82265e1b7278ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NextLevel
 --- !u!1 &1757932028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5866,7 +5883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990324a0598da744f8ba60da4b68e5db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  speed: 800
+  speed: 2000
   maxVelocity: {x: 60, y: 100}
   jumpVelocity: 80
   standing: 0
@@ -5941,7 +5958,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5654008814894759899, guid: f4d768c00fe96894f88ed051c95af3bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1082825287}
   m_SourcePrefab: {fileID: 100100000, guid: f4d768c00fe96894f88ed051c95af3bf, type: 3}
 --- !u!1001 &8913347522161783130
 PrefabInstance:
